@@ -34,7 +34,7 @@
     <div class="jumbotrom jumbotrom-fluid">
         <div class="container">
             <h1 class="display-4">DB Manager -test_DB-</h1>
-            <p class="read">Lampああああああああああああああああああ</p>
+            <p class="read">Lamp</p>
         </div>
     </div>
     
