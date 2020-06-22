@@ -61,9 +61,9 @@ try {
                 <tbody>
                     <?php foreach($result as $value) { ?>
                         <tr>
-                            <th><?php echo '$value[id]'; ?></th>
-                            <td><?php echo '$value[name]'; ?></td>
-                            <td><?php echo '$value[age]'; ?></td>
+                            <th><?php echo "$value[id]"; ?></th>
+                            <td><?php echo "$value[name]"; ?></td>
+                            <td><?php echo "$value[age]"; ?></td>
                         </tr>
                         <tr>
                             <th>2</th>
