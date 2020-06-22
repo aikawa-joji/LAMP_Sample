@@ -1,16 +1,16 @@
 <?php
-$dsn = 'mysql:dbname=test_DB;host=localhost;';
-$user = 'aikawa';
-$password = 'aijo0907';
-try {
-    $dbh = new PDO($dsn, $user, $password);
+    $dsn = 'mysql:dbname=test_DB;host=localhost;';
+    $user = 'aikawa';
+    $password = 'aijo0907';
+    try {
+        $dbh = new PDO($dsn, $user, $password);
 ​
-    $sql = "select * from user;";
-    $result = $dbh->query($sql);
-} catch (PDOException $e) {
-    print "Failed: " . $e->getMessage() . "\n";
-    exit();
-}
+        $sql = "select * from user;";
+        $result = $dbh->query($sql);
+    } catch (PDOException $e) {
+        print "Failed: " . $e->getMessage() . "\n";
+        exit();
+    }
 ​
 ?>
 ​
