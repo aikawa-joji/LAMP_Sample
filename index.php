@@ -73,11 +73,16 @@
 						</tr>
 					</thead>
 					<tbody>
-						<?php foreach ($result as $value) { ?>
+						<?php foreach ($result2 as $value) { ?>
 							<tr>
 								<th><?php echo "$value[id]"; ?></th>
 								<td><?php echo "$value[name]"; ?></td>
 								<td><?php echo "$value[age]"; ?></td>
+								<td>
+									<from action=".delete.php" method="GET">
+										<input class="d-none" type="text" name="id" value="<?php echo "value[id]"; ?>">
+										<button class="btn btn-danger" type="submit">delete</buttun>
+								</td>
 							</tr>
 						<?php } ?>
 					</tbody>
